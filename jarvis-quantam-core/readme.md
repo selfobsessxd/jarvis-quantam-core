@@ -175,9 +175,10 @@ It is held in memory only, deliberately: writing it to disk would make a fresh l
 
 ```bash
 https://github.com/selfobsessxd/jarvis-quantam-core.git
-
-python setup.py        # installs deps for YOUR OS + the browser automation engine
-python main.py
+cd jarvis-quantam-core
+ls
+py setup.py
+py main.py 
 ```
 
 `setup.py` only ever installs what your operating system needs — the Windows-only libraries are skipped automatically on macOS and Linux (and vice-versa). Prefer to do it by hand? `pip install -r requirements.txt` works too.
